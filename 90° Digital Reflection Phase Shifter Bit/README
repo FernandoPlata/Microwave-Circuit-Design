@@ -1,0 +1,19 @@
+Project 3: 90° Digital Reflection Phase Shifter Bit (2.7–3.0 GHz)
+
+**Objective:**  
+Design a 90-degree digital reflection-type phase shifter using PIN diode switching, implemented in microstrip on RO4003™ (20 mil, 0.5 oz copper).
+
+**Specifications:**
+- Frequency Range: 2700–3000 MHz  
+- Input/Output Impedance: 50 Ω  
+- Return Loss (S11, S22) < -15 dB  
+- Insertion Loss (S21) > -0.7 dB  
+- Differential Phase Shift: 90° ± 4.5°  
+- Minimum Line Width: > 4 mils  
+
+**Implementation Highlights:**
+- Based on Figure 11.13 from Pozar
+- Skyworks DSG9500 PIN diodes modeled using Pozar's equivalent circuits
+- 0402 sized real components used for biasing
+- EM co-simulation including DC bias lines
+- Realistic layout
