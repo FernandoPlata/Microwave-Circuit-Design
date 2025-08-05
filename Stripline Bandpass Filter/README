@@ -1,0 +1,17 @@
+Project 2: Stripline Bandpass Filter (4.0–4.2 GHz)
+
+**Objective:**  
+Design a bandpass filter using stripline transmission lines on Rogers RT/Duroid 5880 substrate (2 × 0.031", 1 oz copper).
+
+**Specifications:**
+- Passband: 4000–4200 MHz  
+- Insertion Loss: < 2.0 dB  
+- Attenuation at 3.7 GHz: > 35 dB  
+- System Impedance: 50 Ω  
+- Minimum Line Width/Gap: > 0.005 inch  
+
+**Implementation Highlights:**
+- Stripline structure using SLIN, SSTEP, and other ADS models
+- Minimum 1/8" lines at input/output
+- EM simulation with Momentum
+- Physically realizable layout
