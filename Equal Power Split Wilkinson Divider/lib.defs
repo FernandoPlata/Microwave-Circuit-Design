@@ -1,6 +1,0 @@
-INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
-INCLUDE $HPEESOF_DIR/oalibs/dsp.defs
-DEFINE Project1_V3_lib Project1_V3_lib
-ASSIGN Project1_V3_lib libMode shared
-INCLUDE $HOME/Panasonic_DK_web/lib.defs
-INCLUDE ../Downloads/Panasonic_DK_web/Panasonic_DK_web/lib.defs
